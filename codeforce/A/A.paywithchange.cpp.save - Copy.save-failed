@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int t;cin>>t;
+    while(t--)
+    {
+        long int a,b,n,s,i=1;
+        cin>>a>>b>>n>>s;
+        if(n<s && n+b >=s)
+            cout<<"yes"<<endl;
+        if(a*n + b <s)
+            cout<<"no"<<endl;
+        else if(b>=s)
+            cout<<"yes"<<endl;
+        else
+        {   if((s/n >a && s/n +b >=s) || s/n *n +b >=s)
+            cout<<"yes"<<endl;
+            else
+                cout<<"no"<<endl;
+        }
+    }
+}

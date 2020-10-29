@@ -1,0 +1,56 @@
+*{
+	font-family: 'Iceland', cursive;
+	box-sizing: border-box;
+}	
+body{
+	
+	background-image: url('https://source.unsplash.com/1600x900/?water');
+	display: flex;
+	/*justify-content: center;*/
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+}
+ul li{
+	display: inline-block;
+	list-style: none;
+	margin :0px 10px; 
+}
+.seats{
+	background-color: red;
+	width: 15px;
+	
+	height: 12px;
+	margin :3px;
+	display: inline-block;
+	border-top-left-radius : 10px;
+	border-top-right-radius : 10px;
+	 
+}
+.seats.Selected{
+	background-color: cyan;
+}
+.seats.Occupied{
+	background-color: blue;
+}
+.rows{
+	display: flex;
+}
+.container{
+	margin-left: 10px;
+	padding
+}
+#btn{
+	background-color: transparent;
+	border: none;
+	font-size: 25px;
+	text-transform: uppercase;
+	margin-top: 50px;
+	font-weight: bold;
+	line-height: 40px;
+	border: 3px solid white;
+	width: 350px;
+}
+#btn:hover{
+	background-color: white;
+}

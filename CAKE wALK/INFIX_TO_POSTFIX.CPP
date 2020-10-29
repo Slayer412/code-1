@@ -1,0 +1,45 @@
+#include<iostream>
+#include<ctype.h>
+#include<cstring>
+using namespace std;
+char stk[10];int top=-1;
+void push(char c)
+{
+    stck[++top]=c;
+}
+void pop()
+{
+    top--;
+}
+int is_greater(char c)
+{
+    if(c=='^')
+        return 4;
+    else if(c=='%')
+        return 3;
+    else if(c=='/' || c=='*')
+        return 2;
+    else if(c=='+' || c=='-')
+        return 1;
+    else
+        return 0;
+}
+int isop(char x)
+{
+    if(x=='/' || x=='*' || x=='-' || x=='+' || x=='^' || x=='%')
+        return 1;
+    else return 0;
+}
+int main()
+{
+    char infix[10],postfix[10];
+    gets(infix);
+    strcpy(postfix,"")
+    rk(infix,postfix);
+    printf("%s",postfix);
+    puts(postfix);
+}
+void rk(char source[],char target[])
+{
+
+}

@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+struct graph
+{
+    int vertex,edge;
+    int **adj;
+};
+graph* adjmatrix()
+{
+    graph *g;
+    g=(graph*)malloc(sizeof(graph));
+    cout<<"Enter value of V and E"<<"\n";
+    cin>>g->vertex>>g->edge;
+    adj=(mallo)
+    
+}

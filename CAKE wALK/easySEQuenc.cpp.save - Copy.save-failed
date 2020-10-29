@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int findnum(int me,int n)
+{
+
+
+}
+int main()
+{
+    int n=128;
+    int arr[120];
+    arr[0]=0;
+    for(int i=1;i<128,i++)
+    {
+
+    }
+}

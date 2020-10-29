@@ -1,0 +1,11 @@
+[
+	{
+		"test": "axyb\nabyxb\n"
+	},
+	{
+		"test": "a\nz\n\n"
+	},
+	{
+		"test": "abracadabra\navadakedavra\n"
+	}
+]

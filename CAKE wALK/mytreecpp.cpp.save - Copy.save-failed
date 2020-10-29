@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+class node
+{
+    int n;
+    node *l,*r;
+};
+node *root=NULL;
+root* newnode()
+{
+    node *n;
+    n=(node*)malloc(sizeof(node));
+    return n;
+}

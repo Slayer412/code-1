@@ -1,0 +1,32 @@
+[
+	{
+		"test": "3\nAAA\nBABA\nAABBBABBBB\n"
+	},
+	{
+		"test": "5\nAAAABBBBAB\nAAAAAA\nBBBAAA\nAAABABABA\nBBBA\n"
+	},
+	{
+		"test": "1\nB\n"
+	},
+	{
+		"test": "1\nBA\n"
+	},
+	{
+		"test": "1\nBBBAAABBBBBB\n"
+	},
+	{
+		"test": "2\nAB\nBA\n"
+	},
+	{
+		"test": "1\nBBBBBBAAABB\n"
+	},
+	{
+		"test": "1\nBBBBB\n"
+	},
+	{
+		"test": "1\nBBBAAABBBAAABBBABABABABABBA\n"
+	},
+	{
+		"test": "2\nAABABABABBABBA\nBBABBABBABBA\n"
+	}
+]

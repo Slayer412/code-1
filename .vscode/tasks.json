@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build hello world",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",                
+                "-std=c++11",
+                "-std=c++14",
+                "main.cpp",
+                "-o",
+                "test"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}

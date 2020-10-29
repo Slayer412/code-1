@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{    long long int n,x;
+    cin>>n>>x;
+    for(int i=1;i<=100000;i++)
+    {
+        if((i/x)*(i%x)==n)
+           {    
+               cout<<i;
+               break;
+           }
+    }
+}

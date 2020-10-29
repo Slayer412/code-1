@@ -1,0 +1,31 @@
+#include<iosteam>
+class complex
+{
+    int a,b;
+public:
+    void setdata(int x,int y)
+     {a=x;b=y;}
+     void showdata()
+     {
+        cout<<"a is="<<a<<" b is="<<b;;
+     }
+     friend ostream& operator<<(ostream&,complex);
+     friend istream& operator>>(istream&,complex&);
+};
+ostream& operator<<(ostream &cout,complex c)
+{
+    cout<<"a="<<c.a<<" b="<<c.b;
+    return cout;
+}
+istream& operator>>(istream &cin,complex &c)
+{
+    cin<<"a="<<c.a<<" b="<<c.b;
+    return cout;
+}
+int main()
+{
+    complex c1,c2;
+    cout<<"Enter your val"
+    
+}
+

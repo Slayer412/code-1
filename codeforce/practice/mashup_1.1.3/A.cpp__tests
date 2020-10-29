@@ -1,0 +1,59 @@
+[
+	{
+		"test": "2\n0 1\n1 -1\n"
+	},
+	{
+		"test": "3\n0 1\n1 1\n2 -2\n"
+	},
+	{
+		"test": "3\n0 1\n1 1\n2 -2\n"
+	},
+	{
+		"test": "5\n2 -10\n3 10\n0 5\n5 -5\n10 1\n"
+	},
+	{
+		"test": "5\n"
+	},
+	{
+		"test": "32\n6\n1 5\n2 3\n1 10\n7 10\n7 7\n10 10\n"
+	},
+	{
+		"test": "cAPS\n"
+	},
+	{
+		"test": "Lock\n"
+	},
+	{
+		"test": "dasdfdfkandjkas\n"
+	},
+	{
+		"test": "AFALDKDSJLDKSJADK\n"
+	},
+	{
+		"test": "tour\n"
+	},
+	{
+		"test": "Codeforces\n"
+	},
+	{
+		"test": "aBAcAba\n"
+	},
+	{
+		"test": "aeiou\n"
+	},
+	{
+		"test": "AAAAAB\n"
+	},
+	{
+		"test": "ACASXSX\n"
+	},
+	{
+		"test": "3\n1 1\n2 2\n3 3\n"
+	},
+	{
+		"test": "6\n1 5\n2 3\n1 10\n7 10\n7 7\n10 10\n"
+	},
+	{
+		"test": "7 3\n5 10\n2 5\n3 6\n\n"
+	}
+]

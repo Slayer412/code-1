@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int start_hour,start_minut,end_hour,end_minut;
+    int ans_hour,ans_minut;
+    char c;
+    cin>>start_hour>>c>>start_minut;
+    cin>>end_hour>>c>>end_minut;
+    ans_hour=(start_hour+end_hour)/2;
+
+}

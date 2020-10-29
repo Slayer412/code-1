@@ -1,0 +1,23 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long
+int main()
+{
+    int t;cin>>t;
+    while(t--)
+    {
+        int n;cin>>n;
+        string s;
+        cin>>s;
+        int x=0,y=0;
+        mini=INT_MAX;
+        map< pair< ll,ll >,int >m;
+        m[{0,0}]=1;
+        s=' '+s;
+        for(int i=1;i<=n;i++)
+        {
+            if(s[i]=='L')x--;
+            else if(s[i]=='R')
+        }
+    }
+}
