@@ -23,12 +23,14 @@ void solve()
 		int j=i;
 		int cnt=0;
 		while(j<=mx){
+		//	cout<<j<<" "<<divs[j]<<"\n";
 			if(divs[j]>1){
 				cout<<j<<'\n';
 				return;
 			}
 			else if(divs[j]==1)++cnt;
 			j+=i;
+	//		cout<<cnt<<"\n";
 			if (cnt==2)
 			{
 				cout<<i<<"\n";

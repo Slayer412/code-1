@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: 'Montserrat', sans-serif;
+}
+.header1{
+    text-align: center;
+    padding:0;
+    color: white;
+
+}
+body{   
+    background-image: url("https://source.unsplash.com/random");
+}
+#survey-form{
+    margin: 0 auto 1.25rem auto;
+    background-color: rgba(8, 8, 63,0.7);
+    /* margin:  0px 250px; */
+    height: auto;
+    color: white;
+    border-radius: 7px;;
+}
+.name{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bold;
+}
+.namebox{
+    margin-top: 10px;
+    width: auto;
+    border-radius: 7px;
+    font-size: 20px;
+    padding:10px 20px;
+}
+.choose{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+.checkbox{
+    font-size:30px;
+    margin-bottom: 10px;
+    
+}
+.Cbox{
+    display: flex;
+    align-items: center;
+}
+input.Cbox{
+    width: 25px;
+    height: 25px;
+}
+.Feedback{
+    padding: 0;
+    margin: 20px 50px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Comment{
+    margin-top: 2px;
+    width: 100%;
+    height: 100px;
+}
+.Feedback placeholder{
+    padding: 0;
+    font-size: 30px;
+}
+button.submit{
+
+   
+    padding: 0.75rem;
+    background: green;
+    color: inherit;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 30px;
+
+}

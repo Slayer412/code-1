@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section1{
+    background-image: url("https://source.unsplash.com/random") ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+}
+.button{
+    
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    border: #926239 1px solid;
+    padding: 10px 20px;
+    margin-left: 500px;
+    margin-right: 500px;    
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    line-height: 1.6;
+
+}
+.button:hover{
+    background-color: #926239;
+}
+.section2{
+    background-color: rgb(214, 94, 38);
+    padding: 20px 20px;
+}
+.section3{
+    background-color: white;
+    padding: 20px 20px;
+}
+.section4{
+    display: flex;
+}
+.p1{
+    background-color:rgb(214, 94, 38);
+    padding: 10px 10px;
+}
+.p2{
+    padding: 10px 10px;
+}
+.p3{
+   background-color:  rgb(214, 94, 38);
+   padding: 10px 10px;
+}
